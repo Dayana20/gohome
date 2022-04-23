@@ -16,6 +16,7 @@
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_manager","path":"objects/obj_manager/obj_manager.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-32.0,"y":0.0,"resourceVersion":"1.0","name":"inst_781AB08B","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_playerP","path":"objects/obj_playerP/obj_playerP.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":33.0,"y":12.0,"resourceVersion":"1.0","name":"inst_521BF4BA","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_mag1","path":"objects/obj_mag1/obj_mag1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":263.0,"y":405.0,"resourceVersion":"1.0","name":"inst_2FF71D62","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_no_move","path":"objects/obj_no_move/obj_no_move.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":15.0,"scaleY":1.9375,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":209.0,"resourceVersion":"1.0","name":"inst_40AA3CB9","tags":[],"resourceType":"GMRInstance",},
@@ -173,6 +174,7 @@
     {"name":"inst_C81545F","path":"rooms/rm_town/rm_town.yy",},
     {"name":"inst_43DABAC6","path":"rooms/rm_town/rm_town.yy",},
     {"name":"inst_144A341A","path":"rooms/rm_town/rm_town.yy",},
+    {"name":"inst_2FF71D62","path":"rooms/rm_town/rm_town.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
