@@ -4,7 +4,7 @@
 // get player input
 hmove = 0;
 //hmove = keyboard_check(vk_right) - keyboard_check(vk_left);
-hmove = keyboard_check(ord("D")) - keyboard_check(ord("A"));
+hmove = keyboard_check(ord("A")) - keyboard_check(ord("D"));
 if (hmove!=0){
 	image_xscale=-1*hmove;
 }

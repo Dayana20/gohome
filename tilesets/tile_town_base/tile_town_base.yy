@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_map",
-    "path": "sprites/spr_map/spr_map.yy",
+    "name": "spr_home",
+    "path": "sprites/spr_home/spr_home.yy",
   },
   "tileWidth": 16,
   "tileHeight": 16,
