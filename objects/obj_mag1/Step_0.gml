@@ -1,3 +1,8 @@
-if(place_meeting(x,y,obj_playerP) and show){
-	room_goto(rm_home);
+if(show==1){
+	visible = true;
+	/*
+	if(place_meeting(x,y,obj_playerP)){
+		room_goto(rm_home);
+	}
+	*/
 }
