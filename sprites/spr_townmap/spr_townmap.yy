@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 175,
+  "bbox_right": 351,
   "bbox_top": 0,
-  "bbox_bottom": 127,
+  "bbox_bottom": 287,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 176,
-  "height": 128,
+  "width": 352,
+  "height": 288,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"2236e1e0-5ecb-4e9e-af0f-fd35441e8885","path":"sprites/spr_level_1/spr_level_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2236e1e0-5ecb-4e9e-af0f-fd35441e8885","path":"sprites/spr_level_1/spr_level_1.yy",},"LayerId":{"name":"fb4e0a84-8601-4594-8386-a3306dd159a2","path":"sprites/spr_level_1/spr_level_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_level_1","path":"sprites/spr_level_1/spr_level_1.yy",},"resourceVersion":"1.0","name":"2236e1e0-5ecb-4e9e-af0f-fd35441e8885","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"6cbfbd2b-80ae-4994-8ec4-5994a7422c08","path":"sprites/spr_townmap/spr_townmap.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"6cbfbd2b-80ae-4994-8ec4-5994a7422c08","path":"sprites/spr_townmap/spr_townmap.yy",},"LayerId":{"name":"a98ae42c-0caa-4573-8b06-7f0379df72cf","path":"sprites/spr_townmap/spr_townmap.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_townmap","path":"sprites/spr_townmap/spr_townmap.yy",},"resourceVersion":"1.0","name":"6cbfbd2b-80ae-4994-8ec4-5994a7422c08","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_level_1","path":"sprites/spr_level_1/spr_level_1.yy",},
+    "spriteId": {"name":"spr_townmap","path":"sprites/spr_townmap/spr_townmap.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"621b0f92-6754-4fd8-8dcf-bcf3475916b4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2236e1e0-5ecb-4e9e-af0f-fd35441e8885","path":"sprites/spr_level_1/spr_level_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"3e09d2cf-8b9b-4fe9-8b36-12889007ef26","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6cbfbd2b-80ae-4994-8ec4-5994a7422c08","path":"sprites/spr_townmap/spr_townmap.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_level_1","path":"sprites/spr_level_1/spr_level_1.yy",},
+    "parent": {"name":"spr_townmap","path":"sprites/spr_townmap/spr_townmap.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_level_1",
+    "name": "spr_townmap",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"fb4e0a84-8601-4594-8386-a3306dd159a2","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a98ae42c-0caa-4573-8b06-7f0379df72cf","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_level_1",
+  "name": "spr_townmap",
   "tags": [],
   "resourceType": "GMSprite",
 }
