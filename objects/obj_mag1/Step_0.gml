@@ -1,3 +1,3 @@
-if(place_meeting(x,y,obj_playerP)){
-	room_goto(rm_place);
+if(place_meeting(x,y,obj_playerP) and show){
+	room_goto(rm_home);
 }
