@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_level_1",
-    "path": "sprites/spr_level_1/spr_level_1.yy",
+    "name": "spr_path",
+    "path": "sprites/spr_path/spr_path.yy",
   },
   "tileWidth": 16,
   "tileHeight": 16,
@@ -585,7 +585,7 @@
     "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
-  "name": "tile_level_1",
+  "name": "spr_platform",
   "tags": [],
   "resourceType": "GMTileSet",
 }
