@@ -24,7 +24,6 @@
     {"id":{"name":"obj_mag_home","path":"objects/obj_mag_home/obj_mag_home.yy",},"order":9,},
     {"id":{"name":"obj_no_move","path":"objects/obj_no_move/obj_no_move.yy",},"order":5,},
     {"id":{"name":"rm_level_1","path":"rooms/rm_level_1/rm_level_1.yy",},"order":3,},
-    {"id":{"name":"obj_dialogue","path":"objects/obj_dialogue/obj_dialogue.yy",},"order":11,},
     {"id":{"name":"rm_level_3","path":"rooms/rm_level_3/rm_level_3.yy",},"order":1,},
     {"id":{"name":"spr_player_home","path":"sprites/spr_player_home/spr_player_home.yy",},"order":6,},
     {"id":{"name":"spr_no_move","path":"sprites/spr_no_move/spr_no_move.yy",},"order":3,},
