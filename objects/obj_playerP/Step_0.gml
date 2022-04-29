@@ -34,3 +34,10 @@ if(place_meeting(x,y,obj_enemy) or place_meeting(x,y,obj_smart_enemy) or place_m
 */
 // stay in screen
 x = clamp(x,0,room_width-10);
+
+// if dies
+if(y>room_height+10){
+	x = startx;
+	y = starty;
+	player_lives-=3;
+}

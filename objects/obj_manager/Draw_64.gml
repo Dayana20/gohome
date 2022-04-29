@@ -1,0 +1,1 @@
+draw_text(50,50,"Lives:"+string(player_lives));
