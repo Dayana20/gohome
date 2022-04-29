@@ -41,3 +41,25 @@ if(y>room_height+10){
 	y = starty;
 	player_lives-=3;
 }
+
+// for dialogue
+if (!SPEAKING){
+	//hmove = keyboard_check(vk_right) - keyboard_check(vk_left);
+	//vmove = keyboard_check(vk_down) - keyboard_check(vk_up);
+
+	//x += hmove * mspd;
+	//y += vmove * mspd;
+
+	if (distance_to_object(obj_npc) < 16){
+		//sprite_index = spr_player_chat;	
+	
+		if (!just_spoke and keyboard_check_pressed(ord("M"))){
+			speak_to_NPC(instance_nearest(x,y,obj_npc));	
+		}
+	
+	} else {
+		//sprite_index = spr_player_idle;	
+	}
+}
+
+just_spoke = false;
