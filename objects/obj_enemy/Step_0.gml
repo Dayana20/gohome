@@ -3,3 +3,4 @@ if (distance_to_object(obj_playerP) < 30){
 } else{
 	sprite_index = spr_enemy1;
 }
+

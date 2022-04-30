@@ -1,10 +1,10 @@
 if(keyboard_check_pressed(ord("R"))){
-	room_goto(rm_home);	
+	room_goto(rm_level_1);	
 }
 
 // delete
 if(keyboard_check_pressed(ord("P"))){
-	room_goto(rm_level_1);	
+	room_goto(rm_level_2);	
 }
 
 

@@ -64,4 +64,13 @@ if (!SPEAKING){
 
 just_spoke = false;
 
+
+// level 1 enemy 
+if(place_meeting(x,y,obj_enemy)){
+	player_lives-=3;
+	x -=20;
+	// moves player back to show it was hurt 
+	// could add animation to further emphasize this
+}
+
 // note for enemies in level 2 we can do thunder

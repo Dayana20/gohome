@@ -1,2 +1,10 @@
-/// @description Insert description here
-// You can write your code in this editor
+
+mspd = 1.5;
+target = obj_playerP;
+path_x = x;
+path_y = y;
+
+enemy_path = path_add();
+startx = x;
+starty = y;
+
