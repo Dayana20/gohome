@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 if (SPEAKING){
-	if (keyboard_check_pressed(ord("M"))){
+	if (mouse_check_button_pressed(mb_any)){
 		advance_dialogue();
 	}
 }

@@ -53,7 +53,7 @@ if (!SPEAKING){
 	if (distance_to_object(obj_npc) < 16){
 		//sprite_index = spr_player_chat;	
 	
-		if (!just_spoke and keyboard_check_pressed(ord("M"))){
+		if (!just_spoke and mouse_check_button_pressed(mb_any)){
 			speak_to_NPC(instance_nearest(x,y,obj_npc));	
 		}
 	
@@ -63,3 +63,5 @@ if (!SPEAKING){
 }
 
 just_spoke = false;
+
+// note for enemies in level 2 we can do thunder
