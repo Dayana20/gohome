@@ -10,8 +10,14 @@ if (hmove!=0){
 }
 
 if (keyboard_check_pressed(vk_space)){
-	yspd = -jump_str;
-	jump_count++;
+	if(room==rm_level_2){
+		if(place_meeting(x,y+20,obj_no_move)){
+			yspd = -jump_str;
+		}
+		
+	} else {
+		yspd = -jump_str;
+	}
 }
 
 
@@ -24,14 +30,7 @@ if(x_bump){
 	xspd=0;
 }
 
-/*
-if(place_meeting(x,y,obj_enemy) or place_meeting(x,y,obj_smart_enemy) or place_meeting(x,y,obj_jumping_enemy)){
-	x = startx;
-	y = starty;
-}
 
-
-*/
 // stay in screen
 x = clamp(x,0,room_width-10);
 
@@ -44,21 +43,15 @@ if(y>room_height+10){
 
 // for dialogue
 if (!SPEAKING){
-	//hmove = keyboard_check(vk_right) - keyboard_check(vk_left);
-	//vmove = keyboard_check(vk_down) - keyboard_check(vk_up);
-
-	//x += hmove * mspd;
-	//y += vmove * mspd;
 
 	if (distance_to_object(obj_npc) < 16){
 		//sprite_index = spr_player_chat;	
 	
 		if (!just_spoke and mouse_check_button_pressed(mb_any)){
-			speak_to_NPC(instance_nearest(x,y,obj_npc));	
+			speak_to_NPC(obj_npc);	
+			//speak_to_NPC(instance_nearest(x,y,obj_npc));	
 		}
 	
-	} else {
-		//sprite_index = spr_player_idle;	
 	}
 }
 
