@@ -13,6 +13,9 @@ function advance_dialogue(){
 	if(room==rm_level_1 and found){
 		show = 1;	
 	}
+	if(room==rm_level_2 and found){
+		show = 1;	
+	}
 	REMOVEB = 1;	
 	
 }
