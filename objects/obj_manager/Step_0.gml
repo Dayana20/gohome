@@ -7,6 +7,10 @@ if(keyboard_check_pressed(ord("P"))){
 	room_goto(rm_level_2);	
 }
 
+if(keyboard_check_pressed(ord("U"))){
+	room_goto(rm_level_3);	
+}
+
 
 if(player_lives == 0){
 	room_goto(rm_home);	

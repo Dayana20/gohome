@@ -21,3 +21,9 @@ if(room==rm_level_2){
 
 }
 
+if (room==rm_level_3){
+	my_dialogue[0] = "Hi! I'm the default NPC!"; // does not show for some reason
+	my_dialogue[1] = "Now you're in my maze.";
+	my_dialogue[2] = "Once you clear the maze you'll return home.";
+
+}

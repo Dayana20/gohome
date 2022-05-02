@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mag_home","path":"sprites/spr_mag_home/spr_mag_home.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "spr_mag_home",
     "tags": [],
     "resourceType": "GMSequence",
