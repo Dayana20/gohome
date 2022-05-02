@@ -15,4 +15,8 @@ if(room==rm_level_2){
 		my_dialogue[2] = "Alright listen carefully...!";
 		my_dialogue[3] = "The magical item is where the enemy originated";
 	}
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 19914c2deea990b9e9b454feb99ecdeeeff836cf

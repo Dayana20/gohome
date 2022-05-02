@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_dia","path":"sprites/spr_dia/spr_dia.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_dia",
     "tags": [],
     "resourceType": "GMSequence",
