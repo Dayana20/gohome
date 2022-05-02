@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_enemy2_unsure","path":"sprites/spr_enemy2_unsure/spr_enemy2_unsure.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "spr_enemy2_unsure",
     "tags": [],
     "resourceType": "GMSequence",
