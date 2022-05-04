@@ -15,3 +15,9 @@ DIA_BOX = id;
 */
 
 just_spoke = false;
+
+globalvar checkpoint;
+checkpoint = rm_home;
+
+hurt = 0;
+timer_b = room_speed*2;

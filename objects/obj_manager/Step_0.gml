@@ -12,8 +12,8 @@ if(keyboard_check_pressed(ord("U"))){
 }
 
 
-if(player_lives == 0){
-	room_goto(rm_home);	
+if(player_lives <= 0){
+	room_goto(checkpoint);	
 	player_lives = 9;
 }
 

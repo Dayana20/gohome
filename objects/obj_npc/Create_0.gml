@@ -17,7 +17,7 @@ if(room==rm_level_2){
 	my_dialogue[1] = "Why are you looking at me like that?";
 	my_dialogue[2] = "No we haven't seen each other before. And yes I can read minds.";
 	my_dialogue[3] = "I know you are looking to return home. Find my Melly and I will help you.";
-	my_dialogue[4] = "What are you waiting for? Oh right, Melly is tall with many colors, green, yellow, and red.";
+	my_dialogue[4] = "What are you waiting for? Oh right, Melly has many colors pink, yellow, blue, and green. Do not be afraid of her, she's a friend.";
 
 }
 

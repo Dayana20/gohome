@@ -47,7 +47,7 @@ if (!SPEAKING){
 	if (distance_to_object(obj_npc) < 16){
 		//sprite_index = spr_player_chat;	
 	
-		if (!just_spoke and mouse_check_button_pressed(mb_any)){
+		if (!just_spoke and keyboard_check_pressed(vk_enter)){
 			speak_to_NPC(obj_npc);	
 			//speak_to_NPC(instance_nearest(x,y,obj_npc));	
 		}
@@ -61,9 +61,27 @@ just_spoke = false;
 // level 1 enemy 
 if(place_meeting(x,y,obj_enemy)){
 	player_lives-=3;
-	x -=20;
+	x -=10;
+	hurt = 1;
 	// moves player back to show it was hurt 
 	// could add animation to further emphasize this
 }
 
+if(place_meeting(x,y,obj_enpc)){
+	player_lives-=3;
+	x = startx;
+	hurt = 1;
+	// moves player back to show it was hurt 
+	// could add animation to further emphasize this
+}
+
+if(hurt == 1){
+	image_blend = c_red;
+	if(timer_b <=0){
+		image_blend = c_white;
+		timer_b = room_speed*2;
+		hurt = 0;
+	}
+	timer_b--;
+}
 // note for enemies in level 2 we can do thunder
