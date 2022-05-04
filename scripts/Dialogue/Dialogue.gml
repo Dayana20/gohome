@@ -2,21 +2,36 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function advance_dialogue(){
 	
-	if (cur_step < array_length(all_dialogue)-1){
-		cur_step += 1;
-		current_dialogue = all_dialogue[cur_step];
+	if (room==rm_home){
+		if (cur_step < array_length(all_dialogue)-1){
+			cur_step += 1;
+			current_dialogue = all_dialogue[cur_step];
+		} else {
+			SPEAKING = false;
+			DIA_BOX.all_dialogue = noone;
+			obj_player_home.just_spoke = true;
+		}
+		if (room==rm_home and found){
+			show = 1;
+		}
 	} else {
-		SPEAKING = false;
-		DIA_BOX.all_dialogue = noone;
-		obj_playerP.just_spoke = true;
+	
+		if (cur_step < array_length(all_dialogue)-1){
+			cur_step += 1;
+			current_dialogue = all_dialogue[cur_step];
+		} else {
+			SPEAKING = false;
+			DIA_BOX.all_dialogue = noone;
+			obj_playerP.just_spoke = true;
+		}
+		if(room==rm_level_1 and found){
+			show = 1;	
+		}
+		if(room==rm_level_2 and found){
+			show = 1;	
+		}
+		REMOVEB = 1;
 	}
-	if(room==rm_level_1 and found){
-		show = 1;	
-	}
-	if(room==rm_level_2 and found){
-		show = 1;	
-	}
-	REMOVEB = 1;	
 	
 }
 
