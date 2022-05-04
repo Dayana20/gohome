@@ -35,3 +35,18 @@ or keyboard_check(ord("S"))
 or keyboard_check(ord("D")){		// if pressing any move keys, move player!
 	MoveCollide()
 }
+
+if (!SPEAKING){
+
+	if (distance_to_object(obj_npc_home) < 16){
+		//sprite_index = spr_player_chat;	
+	
+		if (!just_spoke and mouse_check_button_pressed(mb_any)){
+			speak_to_NPC(obj_npc_home);	
+			//speak_to_NPC(instance_nearest(x,y,obj_npc));	
+		}
+	
+	}
+}
+
+just_spoke = false;
