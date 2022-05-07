@@ -61,7 +61,8 @@ just_spoke = false;
 // level 1 enemy 
 if(place_meeting(x,y,obj_enemy)){
 	player_lives-=3;
-	x -=10;
+	x -=30;
+	y-=10;
 	hurt = 1;
 	// moves player back to show it was hurt 
 	// could add animation to further emphasize this

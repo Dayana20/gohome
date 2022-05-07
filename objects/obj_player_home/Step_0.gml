@@ -40,8 +40,8 @@ if (!SPEAKING){
 
 	if (distance_to_object(obj_npc_home) < 16){
 		//sprite_index = spr_player_chat;	
-	
-		if (!just_spoke and mouse_check_button_pressed(mb_any)){
+
+		if (!just_spoke and keyboard_check_pressed(vk_enter)){
 			speak_to_NPC(obj_npc_home);	
 			//speak_to_NPC(instance_nearest(x,y,obj_npc));	
 		}
