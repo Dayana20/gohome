@@ -22,15 +22,16 @@ if(room==rm_level_1){
 if(room==rm_level_2){
 	my_dialogue[0] = "Hi! I'm the default NPC!"; // does not show for some reason
 	my_dialogue[1] = "Why are you looking at me like that?";
-	my_dialogue[2] = "No we haven't seen each other before. And yes I can read minds.";
+	my_dialogue[2] = "No, we haven't seen each other before. And yes, I can read minds.";
 	my_dialogue[3] = "I know you are looking to return home. Find my Melly and I will help you.";
-	my_dialogue[4] = "What are you waiting for? Oh right, Melly has many colors pink, yellow, blue, and green. Do not be afraid of her, she's a friend. BUT AVOID THE GHOST AT ALL COST!";
+	my_dialogue[4] = "What are you waiting for? Oh right, Melly has many colors: pink, yellow, blue, and green. Do not be afraid of her. She's a friend. BUT AVOID THE GHOST AT ALL COSTS!";
 
 }
 
 if (room==rm_level_3){
 	my_dialogue[0] = "Hi! I'm the default NPC!"; // does not show for some reason
 	my_dialogue[1] = "Now you're in my maze.";
-	my_dialogue[2] = "Once you clear the maze you'll return home.";
+	my_dialogue[2] = "Once you clear the maze you'll return home!";
+	my_dialogue[3] = "But before that, make sure to grab all of the glowing orbs!"
 
 }

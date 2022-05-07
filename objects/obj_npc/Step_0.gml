@@ -14,8 +14,8 @@ if(room==rm_level_2){
 	if(found){
 		my_dialogue[0] = "Hi! I'm the default NPC!"; // does not show for some reason
 		my_dialogue[1] = "Great job!";
-		my_dialogue[2] = "Alright listen carefully...!";
+		my_dialogue[2] = "Alright, listen carefully...!";
 		my_dialogue[3] = "The magical item is where the enemy originated...";
-		my_dialogue[4] = "Now Go!";
+		my_dialogue[4] = "Now GO!";
 	}
 }

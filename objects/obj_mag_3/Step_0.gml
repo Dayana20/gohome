@@ -1,4 +1,8 @@
+if (points == 10){
+	visible = true;
+}
+
 if(place_meeting(x,y,obj_playerP)){
-	room_goto(rm_home);
 	found = true;
+	room_goto(rm_home);
 }
