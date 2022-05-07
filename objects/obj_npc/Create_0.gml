@@ -32,6 +32,7 @@ if (room==rm_level_3){
 	my_dialogue[0] = "Hi! I'm the default NPC!"; // does not show for some reason
 	my_dialogue[1] = "Now you're in my maze.";
 	my_dialogue[2] = "Once you clear the maze you'll return home!";
-	my_dialogue[3] = "But before that, make sure to grab all of the glowing orbs!"
+	my_dialogue[3] = "But before that, make sure to grab all of the green glowing orbs!"
+	my_dialogue[4] = "There are 15 in total!"
 
 }

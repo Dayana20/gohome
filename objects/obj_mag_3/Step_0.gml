@@ -1,4 +1,4 @@
-if (points == 10){
+if (points == 15){
 	visible = true;
 }
 

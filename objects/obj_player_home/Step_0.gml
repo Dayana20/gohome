@@ -29,6 +29,14 @@ if keyboard_check(ord("S")){
 hspd = lengthdir_x(mspd,move_dir)	// find x&y speed by using angle and base speed
 vspd = lengthdir_y(mspd,move_dir)
 
+// get player input
+hmove = 0;
+//hmove = keyboard_check(vk_right) - keyboard_check(vk_left);
+hmove = keyboard_check(ord("D")) - keyboard_check(ord("A"));
+if (hmove!=0){
+	image_xscale=-1*hmove;
+}
+
 if keyboard_check(ord("W"))
 or keyboard_check(ord("A"))
 or keyboard_check(ord("S"))
