@@ -13,9 +13,9 @@ box_ypos = room_height - box_border - box_height;
 //box attributes
 box_border = 30;
 box_width = camera_get_view_width(view_camera[0]) - (2 * box_border); // 300;
-box_height = camera_get_view_height(view_camera(0)) * .45; // 110
+box_height = camera_get_view_height(view_camera[0]) * .45; // 110
 box_xpos = box_border;//30;
-box_ypos = camera_get_view_height(view_camera(0)) - box_border - box_height; // 100;
+box_ypos = camera_get_view_height(view_camera[0]) - box_border - box_height; // 100;
 
 
 

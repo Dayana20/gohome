@@ -4,5 +4,5 @@ if (points == 15){
 
 if(place_meeting(x,y,obj_playerP)){
 	found = true;
-	room_goto(rm_home);
+	room_goto(rm_home_end);
 }

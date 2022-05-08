@@ -1,7 +1,4 @@
-globalvar points;
-points = 0;
-
-if ((room == rm_home) and (points == 0)){
+if (room == rm_home){
 	
 	/*audio_stop_sound(bgm_level_1);
 	audio_stop_sound(bgm_level_2);
@@ -57,7 +54,7 @@ else if (room == rm_level_3){
 	
 } 
 
-else if ((room == rm_home) and (points == 15)){
+else if (room == rm_home_end){
 	
 	/*audio_stop_sound(bgm_level_1);
 	audio_stop_sound(bgm_level_2);
@@ -69,4 +66,4 @@ else if ((room == rm_home) and (points == 15)){
 		audio_play_sound(bgm_home_end,1,true);
 	}
 	
-}
+} 

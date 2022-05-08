@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_dia_home_end",
-    "path": "sprites/spr_dia_home_end/spr_dia_home_end.yy",
+    "name": "spr_mag_home",
+    "path": "sprites/spr_mag_home/spr_mag_home.yy",
   },
   "solid": false,
   "visible": true,
@@ -23,7 +23,6 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -32,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_dialogue_home_end",
+  "name": "obj_mag_home_end",
   "tags": [],
   "resourceType": "GMObject",
 }
