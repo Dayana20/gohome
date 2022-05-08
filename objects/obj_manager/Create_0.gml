@@ -8,6 +8,8 @@ platform=0;
 globalvar player_lives;
 player_lives = 9;
 
+globalvar next;
+next = 0;
 
 
 
