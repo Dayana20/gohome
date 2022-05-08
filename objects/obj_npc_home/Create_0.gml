@@ -20,5 +20,6 @@ if(room==rm_home_end){
 	my_dialogue[2] = "I knew you could do it!";
 	my_dialogue[3] = "Now, your reward is...";
 	my_dialogue[4] = "The satisfaction of beating the game."
+	my_dialogue[5] = "You can touch the magical key to play again!"
 
 }

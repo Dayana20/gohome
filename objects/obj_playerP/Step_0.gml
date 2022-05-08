@@ -60,6 +60,7 @@ just_spoke = false;
 
 // level 1 enemy 
 if(place_meeting(x,y,obj_enemy)){
+	audio_play_sound(sfx_hurt, 1, false);
 	player_lives-=3;
 	x -=30;
 	y-=10;
@@ -69,6 +70,7 @@ if(place_meeting(x,y,obj_enemy)){
 }
 
 if(place_meeting(x,y,obj_enpc)){
+	audio_play_sound(sfx_hurt, 1, false);
 	player_lives-=3;
 	x = startx;
 	hurt = 1;

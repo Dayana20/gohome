@@ -4,6 +4,7 @@ function advance_dialogue(){
 	
 	if ((room==rm_home) or (room == rm_home_end)){
 		if (cur_step < array_length(all_dialogue)-1){
+			audio_play_sound(sfx_dialogue, 1, false);
 			cur_step += 1;
 			current_dialogue = all_dialogue[cur_step];
 		} else {
@@ -17,6 +18,7 @@ function advance_dialogue(){
 	} else if (room == rm_level_1 or room == rm_level_2 or room == rm_level_3){
 	
 		if (cur_step < array_length(all_dialogue)-1){
+			audio_play_sound(sfx_dialogue, 1, false);
 			cur_step += 1;
 			current_dialogue = all_dialogue[cur_step];
 		} else {
