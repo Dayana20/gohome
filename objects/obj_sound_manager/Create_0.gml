@@ -1,6 +1,20 @@
 // MUSIC TAKEN FROM: https://downloads.khinsider.com/game-soundtracks/album/kirby-s-return-to-dream-land
+if (room == rm_title){
+	
+	audio_stop_all();
+	
+	// MUSIC CREDITS:
+	// Title: Nutty Noon (Level 5)
+	// Game: Kirby's Return to Dream Land
+	// Composer: Jun Ishikawa
+	// Console: Wii
+	
+	if (!audio_play_sound(bgm_title,1,true)){
+		audio_play_sound(bgm_title,1,true);
+	}
+}
 
-if (room == rm_home){
+else if (room == rm_home){
 	
 	audio_stop_all();
 	
