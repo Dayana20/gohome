@@ -12,4 +12,5 @@ globalvar points;
 points = 0;
 
 
-
+globalvar checkpoint;
+checkpoint = rm_home;

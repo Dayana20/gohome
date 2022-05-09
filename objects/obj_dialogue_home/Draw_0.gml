@@ -17,7 +17,7 @@ if (SPEAKING){
 	draw_sprite_stretched(sprite_index, image_index, box_xpos, box_ypos, box_width, box_height)
 
 	draw_set_color(c_black);
-	draw_text_ext(text_xpos, text_ypos, current_dialogue, 10, text_width);
+	draw_text_ext(text_xpos, text_ypos, current_dialogue, 14, text_width);
 	draw_set_color(c_white);
 	
 	
